@@ -5,7 +5,7 @@ if len(sys.argv) != 2:
     print("Usage: python3 main.py <path_to_book>")
     sys.exit(1)
 
-## Import functions from other files
+## Import functions from stats.py
 from stats import count_words
 from stats import get_chars_dict
 from stats import report_sort
